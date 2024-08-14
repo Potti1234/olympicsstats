@@ -65,7 +65,10 @@ def scrape_events(link="https://olympics.com/en/olympic-games/tokyo-2020/results
     data = []
     for event in events:
         event_name = event.find('h2').text
-        full_results_link = event.find('a', {'data-cy': 'link'}).get('href')
+        link = event.find('a', {'data-cy': 'next-link'})
+        if link is None:
+            link = event.find('a', {'data-cy': 'link'})
+        full_results_link = link.get('href')
 
         data.append({'Sport': sport,'Event': event_name, 'Link':OLYMPICS_URL + full_results_link, 'GamesId': gamesId})
 
@@ -95,9 +98,12 @@ def scrape_results(link="https://olympics.com/en/olympic-games/tokyo-2020/result
         team_results = soup.findAll('div', {'data-cy': 'team-result-row'})
         counter = 1
         for team_result in team_results:
-            browser.find_element_by_xpath('/html/body/div[1]/div[2]/section/section[3]/div/div/div[2]/div[{}]/span'.format(counter * 2)).click()
-            time.sleep(1)
-            counter += 1
+            try:
+                browser.find_element_by_xpath('/html/body/div[1]/div[2]/section/section[3]/div/div/div[2]/div[{}]/span'.format(counter * 2)).click()
+                time.sleep(0.5)
+                counter += 1
+            except:
+                continue
 
         html_source = browser.page_source
         soup = BeautifulSoup(html_source, 'html.parser')
@@ -185,6 +191,10 @@ def handle_team_result_rows(results, gamesId, sport, event):
 
         for athlete in athletes:
             data.append({'Athlete': athlete["Athlete"], 'Link': athlete["Link"], 'Position': position, 'Country': country, 'Flag': flag_url, 'Result': result_value, 'Notes': notes,
+                     'GamesId': gamesId, 'Sport': sport, 'Event': event})
+        
+        if athletes == []:
+            data.append({'Athlete': "N/A", 'Link': "N/A", 'Position': position, 'Country': country, 'Flag': flag_url, 'Result': result_value, 'Notes': notes,
                      'GamesId': gamesId, 'Sport': sport, 'Event': event})
 
         counter += 1
