@@ -1,54 +1,54 @@
-City,Year,Season,Link,Image URL
-Beijing,2022,Winter,https://olympics.com/en/olympic-games/beijing-2022,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/lqdmzt3zbmjoqlkyxeay
-Tokyo,2020,Summer,https://olympics.com/en/olympic-games/tokyo-2020,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/v1552235080/primary/jux5g5vrxv5fnglq93yj
-PyeongChang,2018,Winter,https://olympics.com/en/olympic-games/pyeongchang-2018,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/waiixcg4qhnqq4fdifua
-Rio,2016,Summer,https://olympics.com/en/olympic-games/rio-2016,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/fzntd3nnabdno6x16pns
-Sochi,2014,Winter,https://olympics.com/en/olympic-games/sochi-2014,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/jxk4t1jb4dzm3ivpvzt2
-London,2012,Summer,https://olympics.com/en/olympic-games/london-2012,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/gstlpozasurlynmmwkh0
-Vancouver,2010,Winter,https://olympics.com/en/olympic-games/vancouver-2010,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/v1652195659/primary/rh0h3shdoizro73rs9kb
-Beijing,2008,Summer,https://olympics.com/en/olympic-games/beijing-2008,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/uuzlexxqfde7ntthqk3q
-Turin,2006,Winter,https://olympics.com/en/olympic-games/turin-2006,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/i5bgbwtmqhcreint51kz
-Athens,2004,Summer,https://olympics.com/en/olympic-games/athens-2004,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/kecmgurk1t8fhktseuca
-Salt Lake City,2002,Winter,https://olympics.com/en/olympic-games/salt-lake-city-2002,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/mjklydmb5bwgmlifiudk
-Sydney,2000,Summer,https://olympics.com/en/olympic-games/sydney-2000,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/gi4wkh9yx0wp4p3jr1t6
-Nagano,1998,Winter,https://olympics.com/en/olympic-games/nagano-1998,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/e0gnkydwoqvegdnp6gop
-Atlanta,1996,Summer,https://olympics.com/en/olympic-games/atlanta-1996,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/kuxmoldrq2rjc9wases5
-Lillehammer,1994,Winter,https://olympics.com/en/olympic-games/lillehammer-1994,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/kchpfzrhkjodexzso98e
-Barcelona,1992,Summer,https://olympics.com/en/olympic-games/barcelona-1992,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/ypx8gpap8xc9ffhet9v5
-Albertville,1992,Winter,https://olympics.com/en/olympic-games/albertville-1992,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/iencdesjrfspewkebuiy
-Seoul,1988,Summer,https://olympics.com/en/olympic-games/seoul-1988,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/zvz25lwh8a4uhpmach8i
-Calgary,1988,Winter,https://olympics.com/en/olympic-games/calgary-1988,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/jmesu0dqqdoyvpvjyzla
-Los Angeles,1984,Summer,https://olympics.com/en/olympic-games/los-angeles-1984,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/uasjoy0lsaw5fcckpmdl
-Sarajevo,1984,Winter,https://olympics.com/en/olympic-games/sarajevo-1984,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/b71wez4lmmmytewckgog
-Moscow,1980,Summer,https://olympics.com/en/olympic-games/moscow-1980,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/ervz43aiplg9hv75oxth
-Lake Placid,1980,Winter,https://olympics.com/en/olympic-games/lake-placid-1980,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/z1127dpazmey19bywvlz
-Montreal,1976,Summer,https://olympics.com/en/olympic-games/montreal-1976,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/stticxusqudtqdznzwoq
-Innsbruck,1976,Winter,https://olympics.com/en/olympic-games/innsbruck-1976,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/hmmwkqhg4nbzxvgotcmb
-Munich,1972,Summer,https://olympics.com/en/olympic-games/munich-1972,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/zohzexdxf1iegzriacn9
-Sapporo,1972,Winter,https://olympics.com/en/olympic-games/sapporo-1972,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/nwcba0uclwfmyal2s7ll
-Mexico City,1968,Summer,https://olympics.com/en/olympic-games/mexico-city-1968,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/wcohbedr3ptzkzocwnbp
-Grenoble,1968,Winter,https://olympics.com/en/olympic-games/grenoble-1968,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/fiywuqxaotqbcz1n3adc
-Tokyo,1964,Summer,https://olympics.com/en/olympic-games/tokyo-1964,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/os2euy022wv8ffannvpc
-Innsbruck,1964,Winter,https://olympics.com/en/olympic-games/innsbruck-1964,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/gsvvuapqzuy5q3mb3gvl
-Rome,1960,Summer,https://olympics.com/en/olympic-games/rome-1960,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/jbqixdti2dz8vnzryvgn
-Squaw Valley,1960,Winter,https://olympics.com/en/olympic-games/squaw-valley-1960,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/qdwk93cak5qrhxjdptpo
-Melbourne,1956,Summer,https://olympics.com/en/olympic-games/melbourne-1956,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/lgc3rkdduwoqlozixxxy
-Cortina d'Ampezzo,1956,Winter,https://olympics.com/en/olympic-games/cortina-d-ampezzo-1956,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/ppd8fesbjpwnwrcswfwn
-Helsinki,1952,Summer,https://olympics.com/en/olympic-games/helsinki-1952,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/piwgcynqe4fmcf30zpdz
-Oslo,1952,Winter,https://olympics.com/en/olympic-games/oslo-1952,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/dtddxv5x4lc83u0iqaxp
-London,1948,Summer,https://olympics.com/en/olympic-games/london-1948,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/itat43p747u6ml1sj51t
-St. Moritz,1948,Winter,https://olympics.com/en/olympic-games/st-moritz-1948,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/eqgasz8ttnujyscaj9ek
-Berlin,1936,Summer,https://olympics.com/en/olympic-games/berlin-1936,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/rspl6fczcnjqbaioixav
-Garmisch-Partenkirchen,1936,Winter,https://olympics.com/en/olympic-games/garmisch-partenkirchen-1936,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/jqsude5donq4ntcyhza3
-Los Angeles,1932,Summer,https://olympics.com/en/olympic-games/los-angeles-1932,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/evj8rk9vfzs2xnrhdtjl
-Lake Placid,1932,Winter,https://olympics.com/en/olympic-games/lake-placid-1932,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/b1nrpelucku0vvrkizmf
-Amsterdam,1928,Summer,https://olympics.com/en/olympic-games/amsterdam-1928,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/jfh66mex75wtr4n8k5kw
-St. Moritz,1928,Winter,https://olympics.com/en/olympic-games/st-moritz-1928,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/gvp1rsytnvi5wcunitgj
-Paris,1924,Summer,https://olympics.com/en/olympic-games/paris-1924,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/i7o0eujwulmuoh07zxbs
-Chamonix,1924,Winter,https://olympics.com/en/olympic-games/chamonix-1924,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/go1gla0g6tnuspvnmkz3
-Antwerp,1920,Summer,https://olympics.com/en/olympic-games/antwerp-1920,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/bpgxip7ylzeqawkdj0ph
-Stockholm,1912,Summer,https://olympics.com/en/olympic-games/stockholm-1912,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/oitut0mdzlfh8ijobbe4
-London,1908,Summer,https://olympics.com/en/olympic-games/london-1908,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/u5ocs43i2wztdkj9iogy
-St. Louis,1904,Summer,https://olympics.com/en/olympic-games/st-louis-1904,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/a5oumraiary1in1wxsyr
-Paris,1900,Summer,https://olympics.com/en/olympic-games/paris-1900,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/nsn8ejyptrksvkhjmu81
-Athens,1896,Summer,https://olympics.com/en/olympic-games/athens-1896,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/ak9fj3coosbqqsnyxpcu
+Id,City,Year,Season,Link,Image URL,Games_Id
+0,Beijing,2022,Winter,https://olympics.com/en/olympic-games/beijing-2022,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/lqdmzt3zbmjoqlkyxeay,beijing-2022
+1,Tokyo,2020,Summer,https://olympics.com/en/olympic-games/tokyo-2020,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/v1552235080/primary/jux5g5vrxv5fnglq93yj,tokyo-2020
+2,PyeongChang,2018,Winter,https://olympics.com/en/olympic-games/pyeongchang-2018,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/waiixcg4qhnqq4fdifua,pyeongchang-2018
+3,Rio,2016,Summer,https://olympics.com/en/olympic-games/rio-2016,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/fzntd3nnabdno6x16pns,rio-2016
+4,Sochi,2014,Winter,https://olympics.com/en/olympic-games/sochi-2014,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/jxk4t1jb4dzm3ivpvzt2,sochi-2014
+5,London,2012,Summer,https://olympics.com/en/olympic-games/london-2012,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/gstlpozasurlynmmwkh0,london-2012
+6,Vancouver,2010,Winter,https://olympics.com/en/olympic-games/vancouver-2010,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/v1652195659/primary/rh0h3shdoizro73rs9kb,vancouver-2010
+7,Beijing,2008,Summer,https://olympics.com/en/olympic-games/beijing-2008,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/uuzlexxqfde7ntthqk3q,beijing-2008
+8,Turin,2006,Winter,https://olympics.com/en/olympic-games/turin-2006,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/i5bgbwtmqhcreint51kz,turin-2006
+9,Athens,2004,Summer,https://olympics.com/en/olympic-games/athens-2004,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/kecmgurk1t8fhktseuca,athens-2004
+10,Salt Lake City,2002,Winter,https://olympics.com/en/olympic-games/salt-lake-city-2002,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/mjklydmb5bwgmlifiudk,salt-lake-city-2002
+11,Sydney,2000,Summer,https://olympics.com/en/olympic-games/sydney-2000,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/gi4wkh9yx0wp4p3jr1t6,sydney-2000
+12,Nagano,1998,Winter,https://olympics.com/en/olympic-games/nagano-1998,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/e0gnkydwoqvegdnp6gop,nagano-1998
+13,Atlanta,1996,Summer,https://olympics.com/en/olympic-games/atlanta-1996,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/kuxmoldrq2rjc9wases5,atlanta-1996
+14,Lillehammer,1994,Winter,https://olympics.com/en/olympic-games/lillehammer-1994,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/kchpfzrhkjodexzso98e,lillehammer-1994
+15,Barcelona,1992,Summer,https://olympics.com/en/olympic-games/barcelona-1992,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/ypx8gpap8xc9ffhet9v5,barcelona-1992
+16,Albertville,1992,Winter,https://olympics.com/en/olympic-games/albertville-1992,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/iencdesjrfspewkebuiy,albertville-1992
+17,Seoul,1988,Summer,https://olympics.com/en/olympic-games/seoul-1988,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/zvz25lwh8a4uhpmach8i,seoul-1988
+18,Calgary,1988,Winter,https://olympics.com/en/olympic-games/calgary-1988,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/jmesu0dqqdoyvpvjyzla,calgary-1988
+19,Los Angeles,1984,Summer,https://olympics.com/en/olympic-games/los-angeles-1984,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/uasjoy0lsaw5fcckpmdl,los-angeles-1984
+20,Sarajevo,1984,Winter,https://olympics.com/en/olympic-games/sarajevo-1984,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/b71wez4lmmmytewckgog,sarajevo-1984
+21,Moscow,1980,Summer,https://olympics.com/en/olympic-games/moscow-1980,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/ervz43aiplg9hv75oxth,moscow-1980
+22,Lake Placid,1980,Winter,https://olympics.com/en/olympic-games/lake-placid-1980,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/z1127dpazmey19bywvlz,lake-placid-1980
+23,Montreal,1976,Summer,https://olympics.com/en/olympic-games/montreal-1976,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/stticxusqudtqdznzwoq,montreal-1976
+24,Innsbruck,1976,Winter,https://olympics.com/en/olympic-games/innsbruck-1976,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/hmmwkqhg4nbzxvgotcmb,innsbruck-1976
+25,Munich,1972,Summer,https://olympics.com/en/olympic-games/munich-1972,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/zohzexdxf1iegzriacn9,munich-1972
+26,Sapporo,1972,Winter,https://olympics.com/en/olympic-games/sapporo-1972,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/nwcba0uclwfmyal2s7ll,sapporo-1972
+27,Mexico City,1968,Summer,https://olympics.com/en/olympic-games/mexico-city-1968,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/wcohbedr3ptzkzocwnbp,mexico-city-1968
+28,Grenoble,1968,Winter,https://olympics.com/en/olympic-games/grenoble-1968,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/fiywuqxaotqbcz1n3adc,grenoble-1968
+29,Tokyo,1964,Summer,https://olympics.com/en/olympic-games/tokyo-1964,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/os2euy022wv8ffannvpc,tokyo-1964
+30,Innsbruck,1964,Winter,https://olympics.com/en/olympic-games/innsbruck-1964,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/gsvvuapqzuy5q3mb3gvl,innsbruck-1964
+31,Rome,1960,Summer,https://olympics.com/en/olympic-games/rome-1960,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/jbqixdti2dz8vnzryvgn,rome-1960
+32,Squaw Valley,1960,Winter,https://olympics.com/en/olympic-games/squaw-valley-1960,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/qdwk93cak5qrhxjdptpo,squaw-valley-1960
+33,Melbourne,1956,Summer,https://olympics.com/en/olympic-games/melbourne-1956,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/lgc3rkdduwoqlozixxxy,melbourne-1956
+34,Cortina d'Ampezzo,1956,Winter,https://olympics.com/en/olympic-games/cortina-d-ampezzo-1956,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/ppd8fesbjpwnwrcswfwn,cortina-d-ampezzo-1956
+35,Helsinki,1952,Summer,https://olympics.com/en/olympic-games/helsinki-1952,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/piwgcynqe4fmcf30zpdz,helsinki-1952
+36,Oslo,1952,Winter,https://olympics.com/en/olympic-games/oslo-1952,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/dtddxv5x4lc83u0iqaxp,oslo-1952
+37,London,1948,Summer,https://olympics.com/en/olympic-games/london-1948,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/itat43p747u6ml1sj51t,london-1948
+38,St. Moritz,1948,Winter,https://olympics.com/en/olympic-games/st-moritz-1948,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/eqgasz8ttnujyscaj9ek,st-moritz-1948
+39,Berlin,1936,Summer,https://olympics.com/en/olympic-games/berlin-1936,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/rspl6fczcnjqbaioixav,berlin-1936
+40,Garmisch-Partenkirchen,1936,Winter,https://olympics.com/en/olympic-games/garmisch-partenkirchen-1936,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/jqsude5donq4ntcyhza3,garmisch-partenkirchen-1936
+41,Los Angeles,1932,Summer,https://olympics.com/en/olympic-games/los-angeles-1932,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/evj8rk9vfzs2xnrhdtjl,los-angeles-1932
+42,Lake Placid,1932,Winter,https://olympics.com/en/olympic-games/lake-placid-1932,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/b1nrpelucku0vvrkizmf,lake-placid-1932
+43,Amsterdam,1928,Summer,https://olympics.com/en/olympic-games/amsterdam-1928,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/jfh66mex75wtr4n8k5kw,amsterdam-1928
+44,St. Moritz,1928,Winter,https://olympics.com/en/olympic-games/st-moritz-1928,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/gvp1rsytnvi5wcunitgj,st-moritz-1928
+45,Paris,1924,Summer,https://olympics.com/en/olympic-games/paris-1924,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/i7o0eujwulmuoh07zxbs,paris-1924
+46,Chamonix,1924,Winter,https://olympics.com/en/olympic-games/chamonix-1924,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/go1gla0g6tnuspvnmkz3,chamonix-1924
+47,Antwerp,1920,Summer,https://olympics.com/en/olympic-games/antwerp-1920,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/bpgxip7ylzeqawkdj0ph,antwerp-1920
+48,Stockholm,1912,Summer,https://olympics.com/en/olympic-games/stockholm-1912,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/oitut0mdzlfh8ijobbe4,stockholm-1912
+49,London,1908,Summer,https://olympics.com/en/olympic-games/london-1908,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/u5ocs43i2wztdkj9iogy,london-1908
+50,St. Louis,1904,Summer,https://olympics.com/en/olympic-games/st-louis-1904,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/a5oumraiary1in1wxsyr,st-louis-1904
+51,Paris,1900,Summer,https://olympics.com/en/olympic-games/paris-1900,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/nsn8ejyptrksvkhjmu81,paris-1900
+52,Athens,1896,Summer,https://olympics.com/en/olympic-games/athens-1896,https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/ak9fj3coosbqqsnyxpcu,athens-1896
