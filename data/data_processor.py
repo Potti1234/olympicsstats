@@ -100,8 +100,8 @@ def create_result_data():
 
     results["Position"] = results["Position"].replace("Gold", 1)
     results["Position"] = results["Position"].replace("Silver", 2)
-    results["Position"] = results["Position"].replace("Bronze", 3)
-    results["Position"] = results["Position"].replace("=", "")
+    results["Position"] = results["Position"].str.replace("=", "", regex=False).fillna(-1).astype(float).astype(int)
+    results.loc[results["Position"] == -1, "Position"] = None
 
     results = pd.merge(results, athlete_data, left_on=['Athlete', 'Link'], right_on=['Athlete_Name', 'Link'], how='left')
 
@@ -115,6 +115,12 @@ def create_result_data():
     results = pd.merge(results, event_data, left_on=['GamesId', 'Sport', 'Event'], right_on=['Games_Name', 'SportName', 'EventName'], how='left')
     results = results.drop(['Games_Name', 'SportName', 'EventName', 'GamesId', 'Sport', 'Event'], axis=1)
     results.columns = ['Athlete_Id','Notes','Position','Result','Team_Id',"Event_Id","Sport_Id","Games_Id"]
+
+    results['Athlete_Id'] = results['Athlete_Id'].fillna(-1).astype(int)
+    results['Team_Id'] = results['Team_Id'].fillna(-1).astype(int)
+
+    results.loc[results["Athlete_Id"] == -1, "Athlete_Id"] = None
+    results.loc[results["Team_Id"] == -1, "Team_Id"] = None
 
     results.to_csv('data/result_data/result_data.csv', index=True, index_label='Id')
 
