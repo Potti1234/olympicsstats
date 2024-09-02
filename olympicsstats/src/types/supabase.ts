@@ -13,7 +13,7 @@ export type Database = {
         Row: {
           Athlete_Name: string | null
           Country_Code: string | null
-          Country_Id: string | null
+          Country_Id: string
           Country_Name: string | null
           Flag: string | null
           Id: string
@@ -22,7 +22,7 @@ export type Database = {
         Insert: {
           Athlete_Name?: string | null
           Country_Code?: string | null
-          Country_Id?: string | null
+          Country_Id: string
           Country_Name?: string | null
           Flag?: string | null
           Id: string
@@ -31,13 +31,21 @@ export type Database = {
         Update: {
           Athlete_Name?: string | null
           Country_Code?: string | null
-          Country_Id?: string | null
+          Country_Id?: string
           Country_Name?: string | null
           Flag?: string | null
           Id?: string
           Link?: string | null
         }
-        Relationships: []
+        Relationships: [
+          {
+            foreignKeyName: "Athlete_Country_Id_fkey"
+            columns: ["Country_Id"]
+            isOneToOne: false
+            referencedRelation: "Country"
+            referencedColumns: ["Id"]
+          },
+        ]
       }
       Country: {
         Row: {
@@ -82,7 +90,15 @@ export type Database = {
           Link?: string | null
           Sport_Id?: string | null
         }
-        Relationships: []
+        Relationships: [
+          {
+            foreignKeyName: "Event_Sport_Id_fkey"
+            columns: ["Sport_Id"]
+            isOneToOne: false
+            referencedRelation: "Sport"
+            referencedColumns: ["Id"]
+          },
+        ]
       }
       OlympicGame: {
         Row: {
@@ -114,41 +130,70 @@ export type Database = {
         }
         Relationships: []
       }
-      result: {
+      Result: {
         Row: {
-          Athlete_Id: number | null
-          Event_Id: number | null
+          Athlete_Id: string | null
+          Event_Id: string | null
           Games_Id: string | null
-          Id: string
+          Id: string | null
           Notes: string | null
-          Position: string | null
+          Position: number | null
           Result: string | null
-          Sport_Id: number | null
+          Sport_Id: string | null
           Team_Id: number | null
         }
         Insert: {
-          Athlete_Id?: number | null
-          Event_Id?: number | null
+          Athlete_Id?: string | null
+          Event_Id?: string | null
           Games_Id?: string | null
-          Id: string
+          Id?: string | null
           Notes?: string | null
-          Position?: string | null
+          Position?: number | null
           Result?: string | null
-          Sport_Id?: number | null
+          Sport_Id?: string | null
           Team_Id?: number | null
         }
         Update: {
-          Athlete_Id?: number | null
-          Event_Id?: number | null
+          Athlete_Id?: string | null
+          Event_Id?: string | null
           Games_Id?: string | null
-          Id?: string
+          Id?: string | null
           Notes?: string | null
-          Position?: string | null
+          Position?: number | null
           Result?: string | null
-          Sport_Id?: number | null
+          Sport_Id?: string | null
           Team_Id?: number | null
         }
-        Relationships: []
+        Relationships: [
+          {
+            foreignKeyName: "Result_Athlete_Id_fkey"
+            columns: ["Athlete_Id"]
+            isOneToOne: false
+            referencedRelation: "Athlete"
+            referencedColumns: ["Id"]
+          },
+          {
+            foreignKeyName: "Result_Event_Id_fkey"
+            columns: ["Event_Id"]
+            isOneToOne: false
+            referencedRelation: "Event"
+            referencedColumns: ["Id"]
+          },
+          {
+            foreignKeyName: "Result_Games_Id_fkey"
+            columns: ["Games_Id"]
+            isOneToOne: false
+            referencedRelation: "OlympicGame"
+            referencedColumns: ["Id"]
+          },
+          {
+            foreignKeyName: "Result_Sport_Id_fkey"
+            columns: ["Sport_Id"]
+            isOneToOne: false
+            referencedRelation: "Sport"
+            referencedColumns: ["Id"]
+          },
+        ]
       }
       Sport: {
         Row: {
@@ -175,7 +220,15 @@ export type Database = {
           Sport?: string | null
           SportName?: string | null
         }
-        Relationships: []
+        Relationships: [
+          {
+            foreignKeyName: "Sport_Games_Id_fkey"
+            columns: ["Games_Id"]
+            isOneToOne: false
+            referencedRelation: "OlympicGame"
+            referencedColumns: ["Id"]
+          },
+        ]
       }
     }
     Views: {

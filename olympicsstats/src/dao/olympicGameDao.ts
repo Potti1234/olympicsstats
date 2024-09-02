@@ -18,3 +18,19 @@ export async function searchOlympicGames(input: string): Promise<(Tables<'Olympi
 
   return data.map(game => ({ ...game, type: 'olympicGame' }))
 }
+
+export async function getOlympicGameById(id: string): Promise<Tables<'OlympicGame'> | null> {
+  const supabase = createClient()
+  const { data, error } = await supabase
+    .from('OlympicGame')
+    .select('*')
+    .eq('Id', id)
+    .single()
+
+  if (error) {
+    console.error('Error fetching Olympic game:', error)
+    return null
+  }
+
+  return data
+}

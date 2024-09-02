@@ -41,6 +41,8 @@ def create_athlete_data():
     athlete_data = athlete_data.drop_duplicates()
     athlete_data = athlete_data.drop_duplicates(['Athlete_Name', 'Flag'])
     athlete_data = athlete_data.drop_duplicates(['Athlete_Name', 'Link'])
+
+    athlete_data['Country_Id'] = athlete_data['Country_Id'].astype(int)
     
     athlete_data.to_csv('data/result_data/athlete_data.csv', index=True, index_label='Id')
 
@@ -142,6 +144,18 @@ def create_teams_column(results):
         df = df.append(rowdf)
     df = df.drop(['last_position', 'last_Country_Code'], axis=1)
     return df
+
+def create_team_data(results):
+    results["last_position"] = results.groupby(['GamesId', 'Sport', 'Event'])["Position"].shift(1)
+    results["last_Country_Code"] = results.groupby(['GamesId', 'Sport', 'Event'])["Country_Code"].shift(1)
+    
+    conditions = (results["Position"] == results["last_position"]) & (results["Country_Code"] == results["last_Country_Code"])
+    results["Team_Id"] = conditions.groupby([results["GamesId"], results["Sport"], results["Event"]]).cumsum()
+    
+    results["Team_Id"] = results.groupby(['GamesId', 'Sport', 'Event'])["Team_Id"].ffill().fillna(0).astype(int)
+    
+    results = results.drop(['last_position', 'last_Country_Code'], axis=1)
+    return results
 
 
 def main():
